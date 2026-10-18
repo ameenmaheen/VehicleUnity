@@ -1,24 +1,29 @@
 # ---------- Unity generated folders ----------
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Ll]ogs/
-[Uu]ser[Ss]ettings/
-[Mm]emoryCaptures/
-[Rr]ecordings/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
 
 # Builds (anchored to repo root; add a "unity-project/" prefix if using a monorepo)
 /[Bb]uild/
 /[Bb]uilds/
 
+# IL2CPP / Burst build leftovers (generated next to Assets/ on build)
+/*_BackUpThisFolder_ButDontShipItWithYourGame/
+/*_BurstDebugInformation_DoNotShip/
+
 # Generated Android export (from Export Project / batch script)
 /unity-export/
-AndroidBuild/
+/AndroidBuild/
 
 # ---------- Unity auto-generated files ----------
 *.csproj
 *.unityproj
 *.sln
+*.slnx
 *.suo
 *.tmp
 *.user
