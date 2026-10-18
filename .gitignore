@@ -1,0 +1,70 @@
+# ---------- Unity generated folders ----------
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Builds (anchored to repo root; add a "unity-project/" prefix if using a monorepo)
+/[Bb]uild/
+/[Bb]uilds/
+
+# Generated Android export (from Export Project / batch script)
+/unity-export/
+AndroidBuild/
+
+# ---------- Unity auto-generated files ----------
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+sysinfo.txt
+crashlytics-build.properties
+
+# Build artifacts
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Asset Store Tools / Addressables / Bee
+[Aa]ssets/AssetStoreTools*
+[Aa]ssets/Plugins/Editor/JetBrains*
+.utmp/
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ---------- Signing (NEVER commit) ----------
+*.keystore
+*.jks
+keystore.properties
+local.properties
+
+# ---------- Gradle / Android Studio ----------
+.gradle/
+**/build/outputs/
+.cxx/
+captures/
+
+# ---------- IDEs & OS ----------
+.vs/
+.vscode/
+.idea/
+.vsconfig
+*.DS_Store
+Thumbs.db
+*~
+.directory
